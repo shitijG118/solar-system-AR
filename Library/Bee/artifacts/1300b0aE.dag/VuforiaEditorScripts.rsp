@@ -349,8 +349,6 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/VuforiaScripts.ref.dll"
--analyzer:"Assets/Solar System Level/Plugins/Demigiant/DOTween/DOTween.dll"
--analyzer:"Assets/Solar System Level/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
 "Library/PackageCache/com.ptc.vuforia.engine@c4d4273eb1b9/Vuforia/Editor/Scripts/DefaultObserverEventHandlerEditor.cs"
 "Library/PackageCache/com.ptc.vuforia.engine@c4d4273eb1b9/Vuforia/Editor/Scripts/OpenSourceInitializer.cs"
 -langversion:9.0

@@ -4,23 +4,6 @@
             "outputFile": "D:\\Unity Projects\\SolarSystemAR\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Shitij Gaur\\.gradle\\caches\\transforms-2\\files-2.1\\06ade87b1252280a56a27b052006e4f1\\VuforiaEngine\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "79",
-                        "endOffsets": "130"
-                    },
-                    "to": {
-                        "startLines": "15",
-                        "startColumns": "4",
-                        "startOffsets": "921",
-                        "endColumns": "79",
-                        "endOffsets": "996"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Shitij Gaur\\.gradle\\caches\\transforms-2\\files-2.1\\16e84a82246e39f10f24b4734dc13f8e\\core-1.22.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8",
@@ -81,6 +64,23 @@
                         "startOffsets": "802,853",
                         "endColumns": "50,67",
                         "endOffsets": "848,916"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Shitij Gaur\\.gradle\\caches\\transforms-2\\files-2.1\\bf0d6f501e54d918793e7ebae5b7b210\\VuforiaEngine\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "79",
+                        "endOffsets": "130"
+                    },
+                    "to": {
+                        "startLines": "15",
+                        "startColumns": "4",
+                        "startOffsets": "921",
+                        "endColumns": "79",
+                        "endOffsets": "996"
                     }
                 }
             ]

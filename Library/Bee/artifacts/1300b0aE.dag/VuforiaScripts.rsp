@@ -341,8 +341,6 @@
 -r:"D:/Unity Projects/SolarSystemAR/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/Solar System Level/Plugins/Demigiant/DOTween/DOTween.dll"
--analyzer:"Assets/Solar System Level/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
 "Library/PackageCache/com.ptc.vuforia.engine@c4d4273eb1b9/Vuforia/Scripts/BarcodeOutlineBehaviour.cs"
 "Library/PackageCache/com.ptc.vuforia.engine@c4d4273eb1b9/Vuforia/Scripts/BoundingBoxRenderer.cs"
 "Library/PackageCache/com.ptc.vuforia.engine@c4d4273eb1b9/Vuforia/Scripts/DefaultAreaTargetEventHandler.cs"

@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - ChangeLookAtTarget
     - DismissControl
     - FIxTextRotate
+    - FixCamControl
     - FixGroundPlaneOnTap
     - HomeButtonScript
     - LoadMcqScript
@@ -155,6 +156,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: AnswerScript
     methodName: Answer
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.ContentPositioningBehaviour
+    methodName: PositionContentAtPlaneAnchor
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.PlaneFinderBehaviour
+    methodName: PerformHitTest
   - assembly: Assembly-CSharp
     fullTypeName: AnswerScript
     methodName: Answer
@@ -168,7 +175,7 @@ ScriptsOnlyBuild:
     fullTypeName: HomeButtonScript
     methodName: OnButtonClick
   sceneClasses:
-    Assets/Scenes/McqScene.unity:
+    Assets/Solar System Level/Scenes/McqScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -177,7 +184,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
@@ -194,6 +207,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16154}
     - Class: 114
+      Script: {instanceID: 16156}
+    - Class: 114
       Script: {instanceID: 16200}
     - Class: 114
       Script: {instanceID: 16390}
@@ -202,15 +217,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16696}
     - Class: 114
+      Script: {instanceID: 16870}
+    - Class: 114
       Script: {instanceID: 17218}
+    - Class: 114
+      Script: {instanceID: 17260}
+    - Class: 114
+      Script: {instanceID: 17294}
+    - Class: 114
+      Script: {instanceID: 17296}
+    - Class: 114
+      Script: {instanceID: 17316}
+    - Class: 114
+      Script: {instanceID: 17376}
+    - Class: 114
+      Script: {instanceID: 17426}
     - Class: 114
       Script: {instanceID: 17576}
     - Class: 114
+      Script: {instanceID: 17878}
+    - Class: 114
+      Script: {instanceID: 18246}
+    - Class: 114
       Script: {instanceID: 18560}
+    - Class: 114
+      Script: {instanceID: 18578}
+    - Class: 114
+      Script: {instanceID: 18628}
     - Class: 114
       Script: {instanceID: 19464}
     - Class: 114
+      Script: {instanceID: 19908}
+    - Class: 114
       Script: {instanceID: 20018}
+    - Class: 114
+      Script: {instanceID: 20070}
+    - Class: 114
+      Script: {instanceID: 20496}
     - Class: 114
       Script: {instanceID: 20804}
     - Class: 114
@@ -219,9 +262,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21858}
     - Class: 114
       Script: {instanceID: 22926}
+    - Class: 114
+      Script: {instanceID: 27290}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -235,7 +282,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/SolarSystemScene.unity:
+    Assets/Solar System Level/Scenes/SolarSystemScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -3357,8 +3404,14 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fbfae76091437d6b5ae2a68fad94aaeb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FixCamControl
   platform: 13
   scenePathNames:
-  - Assets/Scenes/SolarSystemScene.unity
-  - Assets/Scenes/McqScene.unity
+  - Assets/Solar System Level/Scenes/SolarSystemScene.unity
+  - Assets/Solar System Level/Scenes/McqScene.unity
   playerPath: D:/Unity Projects/SolarSystemAR/solarAR.apk

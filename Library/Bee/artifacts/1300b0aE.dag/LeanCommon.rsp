@@ -342,8 +342,6 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/CW.Common.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/Solar System Level/Plugins/Demigiant/DOTween/DOTween.dll"
--analyzer:"Assets/Solar System Level/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll"
 "Assets/Solar System Level/Plugins/CW/LeanCommon/Extras/Scripts/LeanDestroy.cs"
 "Assets/Solar System Level/Plugins/CW/LeanCommon/Extras/Scripts/LeanFormatString.cs"
 "Assets/Solar System Level/Plugins/CW/LeanCommon/Extras/Scripts/LeanPath.cs"
