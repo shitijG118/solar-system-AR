@@ -1,0 +1,38 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    groupId: "com.google.ar"
+    artifactId: "core"
+    version: "1.22.0"
+  }
+  digests {
+    sha256: "\016\251V\036:H\023v\257G\324T`\035\3747|\351\002\242\000\326dr\244\252V\224\223|\337u"
+  }
+}
+library {
+  maven_library {
+    artifactId: "VuforiaEngine"
+  }
+  digests {
+    sha256: "B\325\337\373S\350jU\231Xt:\337\274\222\\A?\337\002T%\261of\254\261\326\004\237\273\366"
+  }
+}
+library {
+  digests {
+    sha256: "\316<\311\020\261\304\362l\353[wB)\204\313\310\324\r\030\351\"\311>\216\024\360*\267\\B\354D"
+  }
+}
+library_dependencies {
+}
+library_dependencies {
+  library_index: 1
+}
+library_dependencies {
+  library_index: 2
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 2
+}
